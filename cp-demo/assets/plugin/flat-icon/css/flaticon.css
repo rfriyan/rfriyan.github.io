@@ -1,0 +1,37 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 16/09/2017 08:17
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../font/Flaticon.eot");
+  src: url("../font/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("../font/Flaticon.woff") format("woff"),
+       url("../font/Flaticon.ttf") format("truetype"),
+       url("../font/Flaticon.html#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../font/Flaticon.html#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 40px;
+font-style: normal;
+
+}
+
+.flaticon-electrical-panel:before { content: "\f100"; }
+.flaticon-tool:before { content: "\f101"; }
+.flaticon-cooling-fan:before { content: "\f102"; }
+.flaticon-technology:before { content: "\f103"; }
+.flaticon-chip:before { content: "\f104"; }
+.flaticon-technics:before { content: "\f105"; }
